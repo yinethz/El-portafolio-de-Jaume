@@ -1,0 +1,42 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    block-size: 5rem;
+}
+
+.logo img {
+    inline-size: 4.375rem;
+    block-size: 1.25rem;
+    vertical-align: middle;
+
+}
+
+.menu {
+    display: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2.5em;
+}
+
+.menu ul li a.is-active {
+    color: var(--primary);
+}
+
+.menu ul li a {
+    color: var(--white);
+    font: var(--button);
+}
+
+.menu ul li a:hover {
+    color: var(--primary);
+}
+
+@media screen and (min-width:768px) {
+    .menu {
+        display: block;
+    }
+}

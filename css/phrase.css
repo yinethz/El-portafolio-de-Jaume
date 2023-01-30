@@ -1,0 +1,35 @@
+.phrase{
+    padding-block-start: 2.5rem;
+    padding-block-end: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.phrase p{
+    margin: 0;
+}
+.phrase p:nth-of-type(1){
+    font: 400 1.5rem/2.425rem Poppins;
+}
+.phrase p:nth-of-type(2){
+    font: var(--headline5)
+}
+.phrase i{
+    font-size: 5rem;
+
+}
+@media screen and (min-width:768px) {
+    
+}
+@media screen and (min-width: 1024px){
+    .phrase{
+        padding-block-start: 12.5rem;
+        padding-block-end: 12.5rem;
+    }
+    .phrase p:nth-of-type(1){
+        font: 300 2.125rem/3.125rem Poppins
+    }
+}

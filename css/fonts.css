@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../font/icomoon.eot?izpurx');
+  src:  url('../font/icomoon.eot?izpurx#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?izpurx') format('truetype'),
+    url('../font/icomoon.woff?izpurx') format('woff'),
+    url('../font/icomoon.svg?izpurx#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github:before {
+  content: "\e900";
+  color: #310a90;
+}
+.icon-heartOutline:before {
+  content: "\e901";
+  color: #310a90;
+}
+.icon-importantMail:before {
+  content: "\e902";
+  color: #310a90;
+}
+.icon-instagram:before {
+  content: "\e903";
+  color: #310a90;
+}
+.icon-phone:before {
+  content: "\e904";
+  color: #310a90;
+}
+.icon-down:before {
+  content: "\e905";
+  color: #310a90;
+}
+.icon-twitterSquared:before {
+  content: "\e906";
+  color: #310a90;
+}

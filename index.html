@@ -17,30 +17,182 @@
 </head>
 
 <body>
-    <p>ajdjhfpijbf</p>
     <header class="header">
-        <a href="/">
-            <img src="images/LOGO.png" width="70" height="20" alt="logo">
-        </a>
-        <nav class="menu" aria-label="main-navigation">
-            <ul>
-                <li><a class="link is-active" href="#main">HOLA</a></li>
-                <li><a class="link" href="#project">PROYECTOS</a></li>
-                <li><a class="link" href="#contact">HABLEMOS</a></li>
-            </ul>
-        </nav>
-        <button class="btn isPrimary">
-            CURRÍCULUM
-        </button>
+        <div class="wrapper">
+            <div class="header-content">
+
+                <a href="/" class="logo link">
+                    <img src="images/LOGO.png" width="70" height="20" alt="logo">
+                </a>
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li><a class="link is-active" href="#main">HOLA</a></li>
+                        <li><a class="link" href="#project">PROYECTOS</a></li>
+                        <li><a class="link" href="#contact">HABLEMOS</a></li>
+                    </ul>
+                </nav>
+                <button class="btn isPrimary">
+                    CURRÍCULUM
+                </button>
+            </div>
+        </div>
     </header>
 
-    <a class="button-icon" href="tel:3142591935"><img src="icons/icon-phone.svg" alt="icono telefono" /></a>
-    <a class="button-icon" href="email:yinethz654@hotmail.com"><img src="icons/icon-important_mail.svg"
-            alt="icono email" /></a>
-    <a class="button-icon" href="https://www.instagram.com/yinethzm/"><img src="icons/icon-instagram.svg"
-            alt="icono instagram" /></a>
-    <a class="button-icon" href="https://twitter.com/nyzambrano1"><img src="icons/icon-twitter_squared.svg"
-            alt="icono twitter" /></a>
+    <div class="wrapper">
+        <section class="hero" aria-label="main" id="main">
+            <div class="hero-image">
+                <img src="./images/user.png" whith="328" height="330" alt="Imagen de perfil de Jaume">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>¡Hola a todos!</span>
+                    <span>Soy Jaume</span>
+                </h1>
+                <p>Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.</p>
+                <div class="icon-redes">
+                    <a class="button-icon" href="tel:3142591935"><img src="icons/icon-phone.svg"
+                            alt="icono telefono" /></a>
+                    <a class="button-icon" href="email:yinethz654@hotmail.com" target="_blank"><img
+                            src="icons/icon-important_mail.svg" alt="icono email" /></a>
+                    <a class="button-icon" href="https://www.instagram.com/yinethzm/" target="_blank"><img
+                            src="icons/icon-instagram.svg" alt="icono instagram" /></a>
+                    <a class="button-icon" href="https://twitter.com/nyzambrano1" target="_blank"><img
+                            src="icons/icon-twitter_squared.svg" alt="icono twitter" /></a>
+                </div>
+                <a href="#" class="btn isPrimary">
+                    DESCARGAR CURRÍCULUM
+                </a>
+            </div>
+        </section>
+        <div class="phrase">
+            <p>
+                A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e
+                increíbles
+            </p>
+            <p>Aquí hay algunos que me gustaría compartir.</p>
+            <i class="icon-down"></i>
+        </div>
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./images/macbook.png" alt="imagen de proyecto">
+            </div>
+            <div class="project-description">
+                <a target="_blank" href="#" class="title">LeonidasEstaban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                    tus habilidades como desarrollador Front-End.</p>
+                <div class="butons">
+                    <a target="_blank" href="#" class="btn isTransparent">
+                        VER CÓDIGO
+                    </a>
+                    <a target="_blank" href="#" class="btn isPrimary">
+                        VER PROYECTO
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="coment">
+            <div class="coment-content">
+                <img src="./images/leonidas.png" alt="imagen de leonidas" width="64" height="64">
+                <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera
+                    llevado 6 meses solo les llevó 1,5 meses ".
+                </p>
+                <span>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</span>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/ipad.png" alt="imagen de proyecto">
+            </div>
+            <div class="project-description">
+                <a target="_blank" href="#" class="title">MARVOL</a>
+                <p>Es el sitio oficial de Marvol Entertainment. Explore películas, personajes, cómics, programas de
+                    televisión, videos y más oficiales de Marvol.</p>
+                <div class="butons">
+                    <a target="_blank" href="#" class="btn isTransparent">
+                        VER CÓDIGO
+                    </a>
+                    <a target="_blank" href="#" class="btn isPrimary">
+                        VER PROYECTO
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="coment">
+            <div class="coment-content">
+                <img src="./images/jason.png" alt="imagen de leonidas" width="64" height="64">
+                <p>"Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+                </p>
+                <span>JASON LOPEZ / COFUNDADOR Y CEO MARVOL</span>
+            </div>
+        </div>
+        <div class="project">
+            <div class="project-image">
+                <img src="./images/­imgIphone.png" alt="imagen de proyecto">
+            </div>
+            <div class="project-description">
+                <a target="_blank" href="#" class="title">NETNET</a>
+                <p>Películas y series ilimitadas y mucho más.
+                    Disfruta donde quieras. Cancela cuando quieras.</p>
+                <div class="butons">
+                    <a target="_blank" href="#" class="btn isTransparent">
+                        VER CÓDIGO
+                    </a>
+                    <a target="_blank" href="#" class="btn isPrimary">
+                        VER PROYECTO
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="coment">
+            <div class="coment-content">
+                <img src="./images/marco.png" alt="imagen de leonidas" width="64" height="64">
+                <p>"Por primera vez en la historia de nuestra empresa, aparecimos en todas las plataformas en las que
+                    trabajamos".
+                </p>
+                <span>MARCO CORTEZ / NETNET</span>
+            </div>
+        </div>
+        <form action="" method="post" class="form">
+            <div class="form-content">
+                <h2 class="title">Hablemos</h2>
+                <p>Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto
+                    conmigo.</p>
+                <label for="form-name">Nombre completo
+                    <input required name="name" id="form-name" type="text" placeholder="Juan">
+                </label>
+                <label for="form-email">Correo electrónico
+                    <input required name="email" id="form-email" type="email" placeholder="Juan@gmail.com">
+                </label>
+                <label for="mesagge">Mensaje
+                    <textarea required name="message" id="form-message" cols="30" rows="7"
+                        placeholder="Mensaje"></textarea>
+                </label>
+                <button class="btn isPrimary">ENVIAR MENSAJE</button>
+            </div>
+        </form>
+        <footer class="footer" id="contact">
+            <a href="/" class="logo link">
+                <img src="./images/LOGO.png" width="70" height="20" alt="logo">
+            </a>
+            <div class="icon-redes">
+                <a class="button-icon" href="tel:3142591935"><img src="icons/icon-phone.svg" alt="icono telefono" /></a>
+                <a class="button-icon" href="email:yinethz654@hotmail.com" target="_blank"><img
+                        src="icons/icon-important_mail.svg" alt="icono email" /></a>
+                <a class="button-icon" href="https://www.instagram.com/yinethzm/" target="_blank"><img
+                        src="icons/icon-instagram.svg" alt="icono instagram" /></a>
+                <a class="button-icon" href="https://twitter.com/nyzambrano1" target="_blank"><img
+                        src="icons/icon-twitter_squared.svg" alt="icono twitter" /></a>
+            </div>
+            <p>
+                <span>Hecho con el ❤️ por Leo.</span>
+                <span>Copyright 2021 - Todos los derechos reservados.</span>
+            </p>
+
+        </footer>
+    </div>
+
+
 </body>
 
 </html>

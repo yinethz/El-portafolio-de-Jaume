@@ -1,0 +1,48 @@
+.coment-content{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(39.7657px);
+    border-radius:1.5rem ;
+    border: .25rem solid rgba(255,255,255,0.2);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: auto;
+}
+
+.coment-content img{
+    inline-size: 4rem;
+    block-size: 4rem;
+   text-align: center;
+ 
+}
+.coment-content p{
+    font: 700 1rem/1.618125rem Poppins ;
+    margin: 0;
+}
+.coment-content span{
+    font: var(--caption);
+    color: var(--primary);
+    opacity: 0.5;
+
+}
+@media screen and (min-width:1024px) {
+    .coment-content{
+        max-inline-size: 70.75rem;
+
+        padding: 5rem;
+    }
+    .coment-content img{
+        inline-size: 5rem;
+        block-size: 5rem;
+  
+    }
+    .coment-content p{
+        font: var(--headline4);
+    }
+    .coment-content span{
+        font: var(--headline5);
+    }
+}

@@ -1,6 +1,15 @@
-@import "./button.css";
-@import "./header.css";
-@import "./button-icon.css";
+@import './button.css';
+@import './icon-redes.css';
+@import './title.css';
+@import './header.css';
+@import './wrapper.css';
+@import './hero.css';
+@import './phrase.css';
+@import './coment.css';
+@import './project.css';
+@import './form.css';
+@import './footer.css';
+
 
 :root {
     --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%)
@@ -23,7 +32,8 @@
 }
 
 body {
-    background: var(--gradient);
-    min-block-size: 100vh;
-    color: var(--green);
+    background: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    color: var(--primary);
+    font: var(--body1);
+    margin: 0;
 }
